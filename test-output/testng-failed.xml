@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Fake API Collection]">
+  <listeners>
+    <listener class-name="extentreports.ListenerClass"/>
+  </listeners>
+  <test name="Manage Tests(failed)">
+    <classes>
+      <class name="fakeTestcases.DeleteUser">
+        <methods>
+          <include name="deleteUser_validInputs"/>
+        </methods>
+      </class> <!-- fakeTestcases.DeleteUser -->
+      <class name="fakeTestcases.CreateUser">
+        <methods>
+          <include name="createUser_validInputs"/>
+          <include name="configure"/>
+        </methods>
+      </class> <!-- fakeTestcases.CreateUser -->
+    </classes>
+  </test> <!-- Manage Tests(failed) -->
+</suite> <!-- Failed suite [Fake API Collection] -->

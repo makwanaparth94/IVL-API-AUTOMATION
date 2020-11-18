@@ -1,0 +1,1 @@
+{"uuid":"bac7e0c3-f360-4f3f-a973-41d663448c66","name":"Fake API Collection","children":["510898ac-0ed7-43e9-9e4d-6a8b6ef5d32f"],"befores":[{"name":"configure","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1604405674140,"stop":1604405674478}],"afters":[],"links":[],"start":1604405674122,"stop":1604405682544}

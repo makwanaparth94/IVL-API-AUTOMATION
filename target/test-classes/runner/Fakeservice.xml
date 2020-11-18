@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Fake API Collection" verbose="1">
+	<listeners>
+		<listener class-name="extentreports.ListenerClass" />
+		<!-- <listener class-name="extentreports.RetryListener" />
+ -->	</listeners>
+	<test name="Manage Tests" preserve-order="true">
+	 <packages>
+			<package name="baseTest" /> 
+	 </packages>
+	 
+	 <classes>
+		<class name="fakeTestcases.CreateUser"></class>
+		<class name="fakeTestcases.DeleteUser"></class>
+	</classes>
+   </test>
+</suite>
